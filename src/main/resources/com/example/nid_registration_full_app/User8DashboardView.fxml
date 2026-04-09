@@ -7,16 +7,15 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.user8DashboardViewcontroller">
    <children>
-      <Button layoutX="45.0" layoutY="61.0" mnemonicParsing="false" onAction="#verifycustomerOA" prefHeight="25.0" prefWidth="155.0" text="Verify Customer" />
+      <Button layoutX="45.0" layoutY="61.0" mnemonicParsing="false" onAction="#verifycustomerOA" prefHeight="25.0" prefWidth="148.0" text="Verify Customer" />
       <Button layoutX="352.0" layoutY="61.0" mnemonicParsing="false" onAction="#nomineeverificationOA" prefHeight="25.0" prefWidth="127.0" text="Verify Nominee" />
       <Button layoutX="352.0" layoutY="124.0" mnemonicParsing="false" onAction="#mismatchOA" prefHeight="25.0" prefWidth="127.0" text="Detect Mismatch" />
       <Button layoutX="355.0" layoutY="187.0" mnemonicParsing="false" onAction="#fraudcheckOA" prefHeight="25.0" prefWidth="127.0" text="Fraud Check" />
       <Button layoutX="355.0" layoutY="248.0" mnemonicParsing="false" onAction="#loanOA" prefHeight="25.0" prefWidth="127.0" text="Loan  Processing" />
-      <Button layoutX="49.0" layoutY="124.0" mnemonicParsing="false" onAction="#nidstatusOA" prefHeight="25.0" prefWidth="148.0" text="NID Status" />
-      <Button layoutX="45.0" layoutY="187.0" mnemonicParsing="false" onAction="#matchphotoOA" prefHeight="25.0" prefWidth="139.0" text="Match Photo" />
-      <Button layoutX="53.0" layoutY="248.0" mnemonicParsing="false" onAction="#addressverificationOA" prefHeight="25.0" prefWidth="139.0" text="Verify  Address" />
-      <Button layoutX="70.0" layoutY="343.0" mnemonicParsing="false" onAction="#backbuttonOA" prefHeight="25.0" prefWidth="67.0" text="Back" />
-      <Button layoutX="381.0" layoutY="343.0" mnemonicParsing="false" onAction="#logoutOA2" prefHeight="25.0" prefWidth="76.0" text="Log Out" />
+      <Button layoutX="45.0" layoutY="124.0" mnemonicParsing="false" onAction="#nidstatusOA" prefHeight="25.0" prefWidth="148.0" text="NID Status" />
+      <Button layoutX="45.0" layoutY="187.0" mnemonicParsing="false" onAction="#matchphotoOA" prefHeight="25.0" prefWidth="148.0" text="Match Photo" />
+      <Button layoutX="45.0" layoutY="248.0" mnemonicParsing="false" onAction="#addressverificationOA" prefHeight="25.0" prefWidth="148.0" text="Verify  Address" />
+      <Button layoutX="224.0" layoutY="324.0" mnemonicParsing="false" onAction="#logoutOA2" prefHeight="25.0" prefWidth="76.0" text="Log Out" />
       <Label fx:id="erorlabelTF2" layoutX="432.0" layoutY="1.0" prefHeight="44.0" prefWidth="168.0" textFill="#f60808" />
    </children>
 </AnchorPane>

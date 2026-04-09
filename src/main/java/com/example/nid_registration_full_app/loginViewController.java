@@ -25,12 +25,32 @@ public class loginViewController
 
     @javafx.fxml.FXML
     public void loginButtonOA(ActionEvent actionEvent) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7DashboardView.fxml"));
-        Scene scene = new Scene(loader.load());
-        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setScene(scene);
-        stage.setTitle("Voter List Update Officer Dashboard");
-        stage.show();
+        String userid = useridTF.getText();
+        String password = passwordTF.getText();
+
+        if (userid.equals("7007") && password.equals("U7007")) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("User7DashboardView.fxml"));
+            Scene scene = new Scene(loader.load());
+            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.setTitle("Voter List Update Officer Dashboard");
+            stage.show();
+        }
+
+        else if (userid.equals("8008") && password.equals("U8008")) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("User8DashboardView.fxml"));
+            Scene scene = new Scene(loader.load());
+            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.setTitle("Bank KYC Officer Dashboard");
+            stage.show();
+        }
+
+        else {
+            errorlabel.setText("Invalid User ID or Password");
+            useridTF.clear();
+            passwordTF.clear();
+        }
 
     }
 }

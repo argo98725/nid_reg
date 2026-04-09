@@ -18,16 +18,8 @@ public class user8DashboardViewcontroller
     public void initialize() {
     }
 
-    @javafx.fxml.FXML
-    public void backbuttonOA(ActionEvent actionEvent) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7DashboardView.fxml"));
-        Scene scene = new Scene(loader.load());
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        stage.setTitle("User7 Dashboard");
-        stage.show();
 
-    }
+
 
     @javafx.fxml.FXML
     public void nidstatusOA(ActionEvent actionEvent) {
