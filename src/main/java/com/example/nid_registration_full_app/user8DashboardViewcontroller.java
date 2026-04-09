@@ -56,7 +56,13 @@ public class user8DashboardViewcontroller
     }
 
     @javafx.fxml.FXML
-    public void verifycustomerOA(ActionEvent actionEvent) {
+    public void verifycustomerOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal1DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Verify Customers Dashboard");
+        stage.show();
     }
 
     @javafx.fxml.FXML
