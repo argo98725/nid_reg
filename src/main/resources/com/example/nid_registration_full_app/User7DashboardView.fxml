@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.User7DashboardViewController">
+   <children>
+      <Button layoutX="32.0" layoutY="68.0" mnemonicParsing="false" onAction="#addvotersOA" prefHeight="25.0" prefWidth="186.0" text=" Add New Eligible Voters" />
+      <Button layoutX="32.0" layoutY="187.0" mnemonicParsing="false" onAction="#duplicatevotersOA" prefHeight="25.0" prefWidth="186.0" text="Remove Duplicate Voter" />
+      <Button layoutX="32.0" layoutY="245.0" mnemonicParsing="false" onAction="#transferareaOA" prefHeight="25.0" prefWidth="186.0" text="Transfer Area" />
+      <Button layoutX="300.0" layoutY="68.0" mnemonicParsing="false" onAction="#matchphotoOA" prefHeight="25.0" prefWidth="186.0" text="Match With NID Photo" />
+      <Button layoutX="300.0" layoutY="127.0" mnemonicParsing="false" onAction="#fixinfoOA" prefHeight="25.0" prefWidth="186.0" text="Fix Informations" />
+      <Button layoutX="300.0" layoutY="187.0" mnemonicParsing="false" onAction="#votersageOA" prefHeight="25.0" prefWidth="186.0" text="Check Voter Eligibility" />
+      <Button layoutX="300.0" layoutY="245.0" mnemonicParsing="false" onAction="#generatevoterlistOA" prefHeight="25.0" prefWidth="186.0" text="Generate Updated Voterlist" />
+      <Button layoutX="32.0" layoutY="127.0" mnemonicParsing="false" onAction="#verifyvotersOA" prefHeight="25.0" prefWidth="186.0" text="Verify Voter" />
+      <Button layoutX="218.0" layoutY="312.0" mnemonicParsing="false" onAction="#logoutOA" prefHeight="25.0" prefWidth="94.0" text="Log Out" />
+      <Label fx:id="erorlabelTF" layoutX="318.0" layoutY="-3.0" prefHeight="41.0" prefWidth="239.0" />
+      <Button layoutX="78.0" layoutY="324.0" mnemonicParsing="false" onAction="#NpageOA" prefHeight="25.0" prefWidth="94.0" text="n page" />
+   </children>
+</AnchorPane>
