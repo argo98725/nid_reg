@@ -60,5 +60,9 @@ public class User7DashboardViewController {
     public void transferareaOA(ActionEvent actionEvent) {
     }
 
+    @javafx.fxml.FXML
+    public void NpageOA(ActionEvent actionEvent) {
+    }
+
 
 }
