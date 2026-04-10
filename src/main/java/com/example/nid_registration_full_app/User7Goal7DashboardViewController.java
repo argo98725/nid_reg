@@ -46,6 +46,6 @@ public class User7Goal7DashboardViewController
 
     @javafx.fxml.FXML
     public void checknidageOA(ActionEvent actionEvent) {
-        erorlabelTF10.setText("Checking voter eligibility based on age...");
+
     }
 }

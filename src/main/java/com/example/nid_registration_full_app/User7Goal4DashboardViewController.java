@@ -25,7 +25,7 @@ public class User7Goal4DashboardViewController
 
     @javafx.fxml.FXML
     public void areatransferOA(ActionEvent actionEvent) {
-        erorlabelTF7.setText("Processing area transfer...");
+
     }
 
     @javafx.fxml.FXML

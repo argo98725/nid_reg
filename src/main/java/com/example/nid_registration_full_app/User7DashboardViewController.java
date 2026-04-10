@@ -10,8 +10,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class User7DashboardViewController {
-    @javafx.fxml.FXML
-    private Label erorlabelTF;
 
     @javafx.fxml.FXML
     public void initialize() {

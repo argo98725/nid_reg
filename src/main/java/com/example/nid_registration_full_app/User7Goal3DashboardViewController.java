@@ -30,7 +30,7 @@ public class User7Goal3DashboardViewController
 
     @javafx.fxml.FXML
     public void checkduplicatevoterOA(ActionEvent actionEvent) {
-        erorlabelTF6.setText("Checking for duplicate voters...");
+
     }
 
     @javafx.fxml.FXML

@@ -30,7 +30,7 @@ public class User7Goal2DashboardViewController
 
     @javafx.fxml.FXML
     public void verifyvoterOA(ActionEvent actionEvent) {
-        erorlabelTF5.setText("Voter verification process...");
+
     }
 
     @javafx.fxml.FXML

@@ -22,11 +22,23 @@ public class user8DashboardViewcontroller
 
 
     @javafx.fxml.FXML
-    public void nidstatusOA(ActionEvent actionEvent) {
+    public void nidstatusOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal2DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("NID Status Dashboard");
+        stage.show();
     }
 
     @javafx.fxml.FXML
-    public void nomineeverificationOA(ActionEvent actionEvent) {
+    public void nomineeverificationOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal5DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Nominee Verification Dashboard");
+        stage.show();
     }
 
     @javafx.fxml.FXML
@@ -40,19 +52,46 @@ public class user8DashboardViewcontroller
     }
 
     @javafx.fxml.FXML
-    public void addressverificationOA(ActionEvent actionEvent) {
+    public void addressverificationOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal4DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle(" Address Verification Dashboard");
+        stage.show();
     }
 
-    @javafx.fxml.FXML
-    public void matchphotoOA(ActionEvent actionEvent) {
-    }
 
     @javafx.fxml.FXML
-    public void loanOA(ActionEvent actionEvent) {
+    public void matchphotoOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal3DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Match Photo Dashboard");
+        stage.show();
     }
 
+
     @javafx.fxml.FXML
-    public void fraudcheckOA(ActionEvent actionEvent) {
+    public void loanOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal8DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Loan Dashboard");
+        stage.show();
+    }
+
+
+    @javafx.fxml.FXML
+    public void fraudcheckOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal7DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Fraud Check Dashboard");
+        stage.show();
     }
 
     @javafx.fxml.FXML
@@ -66,6 +105,12 @@ public class user8DashboardViewcontroller
     }
 
     @javafx.fxml.FXML
-    public void mismatchOA(ActionEvent actionEvent) {
+    public void mismatchOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User8Goal6DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Mismatched NID Dashboard");
+        stage.show();
     }
 }

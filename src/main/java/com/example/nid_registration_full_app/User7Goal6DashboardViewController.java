@@ -36,7 +36,7 @@ public class User7Goal6DashboardViewController
 
     @javafx.fxml.FXML
     public void fixdobOA(ActionEvent actionEvent) {
-        erorlabelTF9.setText("Fixing date of birth...");
+
     }
 
     @javafx.fxml.FXML
