@@ -51,4 +51,6 @@ public class User7Goal1DashboardViewController
         stage.setTitle("Voter List Update Officer Dashboard");
         stage.show();
     }
+
+
 }
