@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.User7Goal4DashboardViewController">
+   <children>
+      <TextField fx:id="voternidnumberTF" layoutX="160.0" layoutY="76.0" prefHeight="47.0" prefWidth="249.0" />
+      <TextField fx:id="voteraddressTF" layoutX="160.0" layoutY="161.0" prefHeight="47.0" prefWidth="249.0" />
+      <Label layoutX="39.0" layoutY="90.0" text="Voter Nid Number">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="175.0" text="Voter Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="209.0" layoutY="242.0" mnemonicParsing="false" onAction="#areatransferOA" prefHeight="41.0" prefWidth="166.0" text=" Area Transfer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="71.0" layoutY="334.0" mnemonicParsing="false" onAction="#u7g4backbuttonOA" prefHeight="25.0" prefWidth="67.0" text="Back" />
+      <Button layoutX="375.0" layoutY="334.0" mnemonicParsing="false" onAction="#logout7" prefHeight="25.0" prefWidth="67.0" text="Log Out" />
+      <Label fx:id="erorlabelTF7" layoutX="395.0" layoutY="-10.0" prefHeight="41.0" prefWidth="207.0" textFill="#ff0808" />
+   </children>
+</AnchorPane>

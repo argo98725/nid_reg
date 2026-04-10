@@ -18,19 +18,43 @@ public class User7DashboardViewController {
     }
 
     @javafx.fxml.FXML
-    public void verifyvotersOA(ActionEvent actionEvent) {
+    public void verifyvotersOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal2DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Verify Voter");
+        stage.show();
     }
 
     @javafx.fxml.FXML
-    public void votersageOA(ActionEvent actionEvent) {
+    public void votersageOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal7DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Check Voter Eligibility");
+        stage.show();
     }
 
     @javafx.fxml.FXML
-    public void duplicatevotersOA(ActionEvent actionEvent) {
+    public void duplicatevotersOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal3DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Remove Duplicate Voter");
+        stage.show();
     }
 
     @javafx.fxml.FXML
-    public void fixinfoOA(ActionEvent actionEvent) {
+    public void fixinfoOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal6DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Fix Informations");
+        stage.show();
     }
 
     @javafx.fxml.FXML
@@ -55,15 +79,33 @@ public class User7DashboardViewController {
     }
 
     @javafx.fxml.FXML
-    public void generatevoterlistOA(ActionEvent actionEvent) {
+    public void generatevoterlistOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal8DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Generate Updated Voter List");
+        stage.show();
     }
 
     @javafx.fxml.FXML
-    public void matchphotoOA(ActionEvent actionEvent) {
+    public void matchphotoOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal5DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Match With NID Photo");
+        stage.show();
     }
 
     @javafx.fxml.FXML
-    public void transferareaOA(ActionEvent actionEvent) {
+    public void transferareaOA(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("User7Goal4DashboardView.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setTitle("Transfer Area");
+        stage.show();
     }
 
 
