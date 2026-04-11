@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="555.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.Argo.AppLicant.FillupRegistrationForm">
+   <children>
+      <Label layoutX="84.0" layoutY="31.0" text="Fill-Up Registration Form" />
+      <Text layoutX="20.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Applicant Name" wrappingWidth="94.93670654296875" />
+      <Text layoutX="26.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fathers Name" wrappingWidth="82.9367065429687" />
+      <Text layoutX="20.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fathers NID No" wrappingWidth="82.9367065429687" />
+      <Text layoutX="20.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mothers Name" wrappingWidth="82.9367065429687" />
+      <Text layoutX="16.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mothers NID No" wrappingWidth="101.3367309570312" />
+      <Text layoutX="34.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile No" wrappingWidth="64.53674316406244" />
+      <Text layoutX="16.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birth Certificate No" wrappingWidth="114.9367065429687" />
+      <Text layoutX="39.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" wrappingWidth="43.73672485351557" />
+      <Text layoutX="25.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education Level" wrappingWidth="82.9367065429687" />
+      <Text layoutX="23.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Of Birth" wrappingWidth="82.9367065429687" />
+      <Text layoutX="477.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Group" wrappingWidth="82.9367065429687" />
+      <Text layoutX="40.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion" wrappingWidth="54.93673706054682" />
+      <Text layoutX="477.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Occupation" wrappingWidth="82.9367065429687" />
+      <TextArea fx:id="AddressTA" layoutX="477.0" layoutY="69.0" prefHeight="83.0" prefWidth="291.0" text="Address: " />
+      <Button layoutX="592.0" layoutY="439.0" mnemonicParsing="false" onAction="#ApplyOnAction" prefHeight="83.0" prefWidth="115.0" text="Apply" />
+      <TextField fx:id="NameTF" layoutX="131.0" layoutY="75.0" />
+      <TextField fx:id="FatherNameTF" layoutX="131.0" layoutY="104.0" />
+      <TextField fx:id="F_nidTF" layoutX="132.0" layoutY="133.0" />
+      <TextField fx:id="MotherNameTF" layoutX="132.0" layoutY="165.0" />
+      <TextField fx:id="M_nidTF" layoutX="132.0" layoutY="197.0" />
+      <TextField fx:id="MobileNoTF" layoutX="132.0" layoutY="231.0" />
+      <TextField fx:id="EduLevelTF" layoutX="132.0" layoutY="265.0" />
+      <TextField fx:id="BirthCertificateTF" layoutX="132.0" layoutY="333.0" />
+      <CheckBox fx:id="hinduCB" layoutX="130.0" layoutY="387.0" mnemonicParsing="false" text="Hindu" />
+      <CheckBox fx:id="muslimCB" layoutX="227.0" layoutY="387.0" mnemonicParsing="false" text="Muslim" />
+      <CheckBox fx:id="christianCB" layoutX="322.0" layoutY="387.0" mnemonicParsing="false" text="Christian " />
+      <CheckBox fx:id="buddhismCD" layoutX="420.0" layoutY="387.0" mnemonicParsing="false" text="Buddhism " />
+      <CheckBox fx:id="maleCB" layoutX="129.0" layoutY="421.0" mnemonicParsing="false" text="Male" />
+      <CheckBox fx:id="femaleCB" layoutX="227.0" layoutY="421.0" mnemonicParsing="false" text="Female" />
+      <CheckBox fx:id="commonCB" layoutX="322.0" layoutY="421.0" mnemonicParsing="false" text="Common" />
+      <TextField fx:id="professionTF" layoutX="560.0" layoutY="188.0" />
+      <ComboBox fx:id="BloodGroupComboBox" layoutX="560.0" layoutY="231.0" prefWidth="150.0" />
+      <DatePicker fx:id="BirthDatePicker" layoutX="130.0" layoutY="302.0" prefHeight="26.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

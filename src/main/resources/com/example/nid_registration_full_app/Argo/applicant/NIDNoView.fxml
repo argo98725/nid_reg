@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.Argo.AppLicant.ViewNIDNumber">
+   <children>
+      <Label layoutX="30.0" layoutY="35.0" prefHeight="34.0" prefWidth="100.0" text="Nid No View" />
+      <Text layoutX="30.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Applicant Name:" />
+      <Text layoutX="30.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No:" />
+      <Text layoutX="30.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father Name:" />
+      <Text layoutX="30.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father NID No:" />
+      <TextField fx:id="applicantNameTF" layoutX="130.0" layoutY="85.0" />
+      <TextField fx:id="phoneTF" layoutX="118.0" layoutY="117.0" />
+      <TextField fx:id="FatherNameTF" layoutX="119.0" layoutY="149.0" />
+      <TextField fx:id="FatherNIDNoTF" layoutX="119.0" layoutY="179.0" />
+      <Button layoutX="228.0" layoutY="219.0" mnemonicParsing="false" onAction="#LoadButtonOnAction" text="Load NID No" />
+      <TextArea fx:id="numberShowTA" layoutX="30.0" layoutY="258.0" prefHeight="58.0" prefWidth="510.0" text="NID No View:" />
+   </children>
 </AnchorPane>

@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="594.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.Argo.AppLicant.UpdatePersonalInformation">
+   <children>
+      <Label layoutX="30.0" layoutY="31.0" text="Update Personal Information View" />
+      <Text layoutX="42.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Applicant Name:" />
+      <Text layoutX="52.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fathers Name:" />
+      <Text layoutX="46.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fathers NID No:" />
+      <Text layoutX="49.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mothers Name:" />
+      <Text layoutX="39.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mothers NID No:" />
+      <Text layoutX="71.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile No:" />
+      <Text layoutX="52.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birth Cert No:" />
+      <Text layoutX="428.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:" />
+      <Text layoutX="373.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion:" wrappingWidth="73.34179687499994" />
+      <Text layoutX="401.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Group:" />
+      <Text layoutX="390.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="65.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Occupation:" />
+      <Text layoutX="52.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Of Birth:" />
+      <TextArea fx:id="AddressTA" layoutX="467.0" layoutY="78.0" prefHeight="106.0" prefWidth="315.0" text="Address: " />
+      <TextField fx:id="NumTF" layoutX="144.0" layoutY="79.0" />
+      <TextField fx:id="F_NumTF" layoutX="145.0" layoutY="119.0" />
+      <TextField fx:id="FNIDTF" layoutX="145.0" layoutY="153.0" />
+      <TextField fx:id="MNumTF" layoutX="145.0" layoutY="187.0" />
+      <TextField fx:id="MNIDTF" layoutX="145.0" layoutY="227.0" />
+      <TextField fx:id="BirthNoTF" layoutX="145.0" layoutY="263.0" />
+      <TextField fx:id="occupationTF" layoutX="146.0" layoutY="301.0" />
+      <TextField fx:id="PhoneNoTF" layoutX="147.0" layoutY="388.0" />
+      <ComboBox fx:id="BloodGroupCB" layoutX="488.0" layoutY="219.0" prefWidth="150.0" />
+      <CheckBox fx:id="maleCheckBox" layoutX="501.0" layoutY="267.0" mnemonicParsing="false" text="Male" />
+      <CheckBox fx:id="femaleCheckBox" layoutX="579.0" layoutY="267.0" mnemonicParsing="false" text="Female" />
+      <CheckBox fx:id="commonCheckBox" layoutX="671.0" layoutY="267.0" mnemonicParsing="false" text="Common" />
+      <CheckBox fx:id="cristianCheckBox" layoutX="617.0" layoutY="360.0" mnemonicParsing="false" text="Cristian" />
+      <CheckBox fx:id="buddhismCheckBox" layoutX="707.0" layoutY="360.0" mnemonicParsing="false" text="Buddhism" />
+      <CheckBox fx:id="HinduCheckBox" layoutX="435.0" layoutY="360.0" mnemonicParsing="false" text="Hindu" />
+      <CheckBox fx:id="muslimCheckBox" layoutX="526.0" layoutY="360.0" mnemonicParsing="false" text="Muslim" />
+      <Button layoutX="591.0" layoutY="451.0" mnemonicParsing="false" onAction="#UpdateButtonOnAction" prefHeight="61.0" prefWidth="115.0" text="Update" />
+      <DatePicker fx:id="BirthDateTF" layoutX="144.0" layoutY="343.0" prefHeight="26.0" prefWidth="150.0" />
+   </children>
 </AnchorPane>
