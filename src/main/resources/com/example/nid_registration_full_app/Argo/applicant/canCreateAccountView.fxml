@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="514.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nid_registration_full_app.Argo.AppLicant.CreateAccount">
+   <children>
+      <Label fx:id="labelViewFxID" layoutX="180.0" layoutY="38.0" text="Create Account View" />
+      <Text layoutX="56.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ApplicantName" />
+      <Text layoutX="85.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MobileNo" />
+      <Text layoutX="44.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BirthCertificateNo" />
+      <Text layoutX="65.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DateOfBirth" wrappingWidth="71.4613037109375" />
+      <TextField fx:id="mobileTF" layoutX="169.0" layoutY="145.0" />
+      <TextField fx:id="nameTF" layoutX="169.0" layoutY="104.0" />
+      <TextField fx:id="birthNoTF" layoutX="169.0" layoutY="189.0" />
+      <DatePicker fx:id="BirthPicker" layoutX="157.0" layoutY="229.0" />
+      <TextArea fx:id="AddressTA" layoutX="466.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" text="Address: " />
+      <Button layoutX="65.0" layoutY="320.0" mnemonicParsing="false" onAction="#CreateButtonOnAction" text="Create New Account" />
+   </children>
+</AnchorPane>
