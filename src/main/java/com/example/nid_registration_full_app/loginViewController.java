@@ -36,6 +36,14 @@ public class loginViewController
             stage.setTitle("Voter List Update Officer Dashboard");
             stage.show();
         }
+        else if (userid.equals("6006") && password.equals("U6006")) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("AllView.fxml"));
+            Scene scene = new Scene(loader.load());
+            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.setTitle("AllView");
+            stage.show();
+        }
 
         else if (userid.equals("8008") && password.equals("U8008")) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("User8DashboardView.fxml"));
